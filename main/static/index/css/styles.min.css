@@ -1,0 +1,45 @@
+
+
+
+
+.carousel-inner
+{
+    margin-top: 70px;}
+
+
+
+
+
+.image1{
+    width: 20%;
+    margin-left:250px;
+    margin-top:60px;
+}
+.image2{
+    margin-left:400px;
+    margin-top:-301px;}
+
+
+.card{
+    margin-top: 50px;
+    margin-left: 350px;
+    padding-top:30px;}
+
+
+#karuzela
+
+.carousel-control-next-icon {
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 65px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 65px;
+  color: red;
+}

@@ -1,0 +1,189 @@
+{% extends "main/header.html" %}
+{% load static %}
+{% block content %}
+
+
+<header class="masthead">
+
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading text-uppercase">
+                <span style="color: rgb(52,58,64);">Hi, I'm Marcin</span>
+            </div>
+            <div class="row text-center mx-auto justify-content-center align-items-center align-content-center align-self-center">
+                <div class="col-md-10 col-sm-12 text-center">
+                    <p class="text-center" style="color: rgb(52,58,64);font-size: 18px;font-family: Montserrat;">
+                        I am a third-year student of Computer Technology at the Faculty of Physics of Adam Mickiewicz University in Poznan. I am currently focusing on improving my skills in Python language. I am looking for an apprenticeship to help me with this.
+                    </p>
+                </div>
+            </div>
+            <a class="btn btn-primary text-center justify-content-center align-items-center align-content-center align-self-center btn-xl
+                text-uppercase js-scroll-trigger" role="button" href="#portfolio" style="width: 183.094px;height: 70px;background: rgb(114, 131, 135);
+                border-width: 0px;">see more
+            </a>
+        </div>
+    </div>
+
+</header>
+
+
+
+<section id="portfolio" class="bg-light">
+    <div class="container">
+        <div class="row" style="margin-top: -70px";>
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase section-heading">Projects</h2>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-sm-6 col-md-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#project1">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><em class="fa fa-plus fa-3x" style="color: rgb(52,58,64);"></em></div>
+                    </div>
+                    <img class="img-fluid" src="{% static 'index/img/product_api.jpg' %}" alt="liquid-thumb">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 class="project-title">products&warehouses management simple REST API</h4>
+                    <p style="font-family: Montserrat; font-style: normal;">
+                        A simple api for tracking products and their location.
+                    </p>
+                </div>
+            </div>
+        <div class="col-sm-3 col-md-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#">
+                <div class="portfolio-hover">
+                    <div class="portfolio-hover-content"><em class="fa fa-plus fa-3x" style="color: rgb(52,58,64);"></em></div>
+                </div>
+                <img class="img-fluid" src="{% static 'index/img/loading.jpg' %}" alt="liquid-thumb">
+            </a>
+            <div class="portfolio-caption">
+                <h4 class="project-title">Lorem ipsum</h4>
+                <p style="font-family: Montserrat; font-style: normal;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit sem. Mauris pellentesque aliquet dolor et suscipit.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><em class="fa fa-plus fa-3x" style="color: rgb(52,58,64);"></em></div>
+                    </div>
+                    <img class="img-fluid" src="{% static 'index/img/loading.jpg' %}" alt="liquid-thumb">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 class="project-title">Lorem ipsum</h4>
+                    <p style="font-family: Montserrat; font-style: normal;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit sem. Mauris pellentesque aliquet dolor et suscipit.
+                    </p>
+                </div>
+            </div>
+        <div class="col-sm-6 col-md-6 portfolio-item">
+                <a class="portfolio-link" data-toggle="modal" href="#">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><em class="fa fa-plus fa-3x" style="color: rgb(52,58,64);"></em></div>
+                    </div>
+                    <img class="img-fluid" src="{% static 'index/img/loading.jpg' %}" alt="liquid-thumb">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 class="project-title">Lorem ipsum</h4>
+                    <p style="font-family: Montserrat; font-style: normal;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac hendrerit sem. Mauris pellentesque aliquet dolor et suscipit.
+                    </p>
+                </div>
+            </div>
+
+</section>
+
+
+<section id="skills" class="bg-light">
+    <div class="container">
+        <div class="row" style="margin-top: -120px" >
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase section-heading">Skills</h2>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="image1">
+
+                    <img src="{% static 'index/img/django.png' %}" alt="liquid-thumb">
+            </div>
+        <div class="image2">
+
+                    <img src="{% static 'index/img/python.png' %}" alt="liquid-thumb">
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="image1">
+
+                    <img src="{% static 'index/img/html.png' %}" alt="liquid-thumb">
+            </div>
+        <div class="image2">
+
+                    <img src="{% static 'index/img/css.png' %}" alt="liquid-thumb">
+            </div>
+    </div>
+      <div class="carousel-item">
+          <div class="image1">
+
+                        <img src="{% static 'index/img/javascript.png' %}" alt="liquid-thumb">
+                </div>
+            <div class="image2">
+
+                        <img src="{% static 'index/img/linux.png' %}" alt="liquid-thumb" >
+                </div>
+        </div>
+
+
+
+    </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div style="width:100%;height:100px; background-color:rgb(46, 61, 50);"></div>
+
+<section id="sectionContact">
+    <div class="container">
+        <div class="row">
+            <div class="card d-flex justify-content-center ">
+                <h6 class="text-muted">INFORMATION</h6>
+                <h2>Contact me</h2>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6 first">
+                            <label for="inputFirstName">FIRST NAME <span>*</span></label>
+                            <input type="text" class="form-control" id="inputFirstName" >
+                        </div>
+                        <div class="form-group col-md-6 first">
+                            <label for="inputLastName">LAST NAME <span>*</span></label>
+                            <input type="text" class="form-control" id="inputLastName">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">EMAIL <span>*</span></label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                    </div>
+                    <div class="form-group mt-0">
+                        <label for="exampleFormControlTextarea1">MESSAGE <span>*</span></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="yourmessage"></textarea>
+                    </div>
+                    <div class="form-button pt-4">
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" value="Submit" name="Submit"><span>SEND MESSAGE</span></button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}

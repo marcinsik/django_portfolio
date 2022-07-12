@@ -1,0 +1,45 @@
+{% load static %}
+<div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="project1">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 text-center">
+                            <h3>REST API for products/warehouses</h3>
+                            <p>
+                                A simple api for tracking products and their location.
+                                <br> </br>
+                                api/warehouse - for warehouse list<br> </br>
+                                api/warehouse/1 for warehouse 1 details<br> </br>
+
+                                api/product - for products list<br> </br>
+                                api/prodcut/1 - for product 1 details<br> </br>
+                                also you can add,edit,delete products&warehouses<br> </br>
+                            </p>
+                            <ol>
+                                <li style="margin-left: -40px; list-style: none;">
+                                    <span class = "badge badge-dark">Django</span>
+                                    <span class = "badge badge-dark">REST FRAMEWORK</span>
+                                </li>
+                            </ol>
+                            
+                            <div class="btn-group" role="group" style="margin: 5px;">
+                                <a class="btn button-dark" type="button" target="_blank" href="https://github.com/dixer23/products-warehouses-management-REST-API">
+                                    Source&nbsp;<em class="fa fa-github"></em>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 d-none d-sm-block">
+                            <img class="img-fluid img-thumbnail" alt='project screenshot' src="{% static 'index/img/product_api.jpg' %}"
+                                style="margin-top: 15px;">
+                        </div>
+                    </div>
+                    {% include 'main/snippets/modal_button.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
