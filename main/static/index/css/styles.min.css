@@ -2,10 +2,6 @@
 
 
 
-.carousel-inner
-{
-    margin-top: 70px;}
-
 
 
 
@@ -22,11 +18,16 @@
 
 .card{
     margin-top: 50px;
-    margin-left: 350px;
+    margin-left: 300px;
     padding-top:30px;}
 
 
 #karuzela
+.carousel-inner
+{
+    margin-top: 70px;}
+
+
 
 .carousel-control-next-icon {
 }
